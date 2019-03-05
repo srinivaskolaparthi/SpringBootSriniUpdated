@@ -1,0 +1,281 @@
+Prereq:
+======
+Spring Core and MVC
+SQl and rest knowledge
+
+
+Spring STS and java1.8
+any database and Postman
+
+Maven knowledge
+
+https://github.com/srinivaskolaparthi/SpringBootSriniUpdated
+https://github.com/kolaparthisrini/MicroservicesSrini
+
+\\ndafile\Softwares\JEE\ELTP====Softwares
+https://github.com/srinivaskolaparthi/Certifications
+
+Spring MVC==30 mins
+Spring boot=10mins
+
+
+Boot= Spring+Automation
+
+SPring MVC =42 jars
+Spring Boot ===1 jar spring boot web
+
+
+Why Spring Boot?
+
+1)Boot is mainly used for Microservice Development.
+2)Reduces the development and config time
+3)Inbuilt containers/servers(embedded servers)
+4)App monitoring services(health status checks/app status whther the app or UP/down)
+5)Boot provides you bunch of devlopment tools.(live reload server/autoreload/global reloads...etc)
+6)Better integration with devops culture.
+7)Profiling is made easy in the case of spring boot.
+8)Composite webservices and composite project artifacts are made easy in the case of boot.
+9)Auto configurations
+
+DEVOPS is more about tools.
+
+core java app interact with All devops tools---NO
+Web app--50%-50%
+i want a technology/module/project thru wich i can interact with all microservices tools
+and devops tools.
+
+spring boot---solu
+
+
+big data: apache kafka(streaming server/jms server)
+
+JMX is mainly used for app monitorings.
+
+Architecture released by Uber cabs..
+Monolithic	 Microservice
+Centralized 	Distributed
+Cost is less 	Cost is more
+Migration is difficult 	Migration is easy when compared with monolithic
+Tightly coupleds	Loosly coupled
+Atoption to chANGES is difiicult	Is Easy
+learning curve is v less	It is more
+
+----------------------------------
+
+ANT--->MAVEN( maven1/maven2/maven 3)--->Gradle
+
+Maven:
+==========
+why maven?
+1)Build tool
+2)Dependency management
+3)packaging
+4)Profiling the app
+5)Scaffolding
+6)deployments
+7)plugin support
+8)Repository maintainance(using maven
+we can create corporate repositories)
+9)multi module project support.
+
+Disadvantage:?
+==============
+xml based
+Transtive dependecny management issues---****
+
+Transtive dependecny?
+
+child is dependent on parent.
+
+Sol)Uber Jar or flat jar
+
+jar with in jar.
+
+Spring boot uses Uber jar concept to achive the goal.
+nesting of the jars is 'n'th level
+
+------------------------------------
+
+How to design spring boot app?
+
+to design boot a[pp,below are the ways
+1)Spring STS/ECLIPSE
+2)Spring boot cli--- is mainly used for dos machines.
+3)Spring Boot starter io(thru browser)
+4)MAVEN/gradle artifacts
+
+
+pivotal server is a type app server from SpringPeople.
+mainly used for PCF.
+
+Src/main/java---for java classes
+src/main/resources----for statis cna d dynamic web pages
+plus boot configuration file
+
+Boot: 1 config file.
+application.properties.It can be in 2 formats.
+1properties 2.yml format
+
+Starter mean it is a dependency.
+
+
+target---- after building your project the final jar is placed 
+into this location.
+
+SpringBoot Stratertest is feature thru which we can do
+spring boot unit testing.
+
+By default boot runs on 8080.
+
+8089,1521
+
+By default spring boot supports opensource servers as embedded server.
+
+Tomcat,jetty
+
+Webspher/weblogic---commercial
+no straight forward approach.thru workarounds.
+
+@SpringBootApplication
+SpringApplication.run():?
+-----------
+1)Application Context is created
+public ConfigurableApplicationContext run(String... args) { 
+    // Create, load, refresh, and run the ApplicationContext
+    context = createApplicationContext();            
+    return context ; // handle to the context object for the developer
+}
+2)The createApplicationContext method checks if it is a web or standalone 
+application based on the type it creates for the context.
+IF the app is web then AnnotationConfigEmbeddedWebApplicationContext will be initialized.
+else AnnotationConfigApplicationContext will be initialized.
+3)Once initialized, All your @Repository, @Component, @Service, and Controller beans will be
+ registered and the context is returned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
